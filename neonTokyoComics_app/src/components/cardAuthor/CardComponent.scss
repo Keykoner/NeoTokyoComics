@@ -1,0 +1,56 @@
+
+.allaing_container{
+    display: flex;
+    justify-content: center;
+}
+
+.CArdComponents{
+    background-color: rgb(255, 255, 255) ;
+    color:rgb(21, 0, 255);
+   
+}
+.my-scroll_bar {
+    /* Stile della scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Larghezza della scrollbar */
+  }
+  
+  /* Track (sfondo) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Colore dello sfondo */
+  }
+  
+  /* Thumb (maniglia) */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Colore della maniglia */
+    border-radius: 5px; /* Raggio dei bordi della maniglia */
+  }
+  
+  /* Stile della scrollbar quando è attiva (hover) */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Colore della maniglia durante l'hover */
+  }
+  
+    /* Aggiungi lo stile della scrollbar */
+    /* ... */
+  }
+  
+
+.cardPosition{   
+    width: 18rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+
+.flex{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+
